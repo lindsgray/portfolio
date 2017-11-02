@@ -4,7 +4,7 @@ body {
   padding: 0;
   background: #232323;
   color: #cdcdcd;
-  font-family: "Avenir Next", "Avenir", sans-serif;
+  font-family: 'Caveat Brush', cursive;
 }
 
 a {
@@ -14,7 +14,7 @@ a {
 }
 
 a:hover {
-  color: tomato;
+  color: #42f498;
 }
 
 #menuToggle {
@@ -81,11 +81,11 @@ a:hover {
 
 #menu {
   position: absolute;
-  width: 300px;
+  width: 200px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  background: #ededed;
+  background: rgba(71, 130, 153, 0.50);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
@@ -94,7 +94,7 @@ a:hover {
 }
 
 #menu a{
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Caveat Brush', cursive;
 }
 
 #menu li {

@@ -1,0 +1,24 @@
+#aboutme {
+    background: rgba(71, 130, 153, 0.50);
+    margin-top: 100px;
+    height: 350px;
+}
+
+.aboutheader {
+    font-family: 'Permanent Marker', cursive;
+    color: #42f498;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-size: 75px;
+}
+
+.abouttext {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aboutimg {
+    height: 500px;
+    margin-top: -100px;
+}
