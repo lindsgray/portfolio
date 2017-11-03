@@ -10,6 +10,12 @@ import { AboutmeComponent } from './components/aboutme/aboutme.component';
 import { HpPhotosComponent } from './components/hp-photos/hp-photos.component';
 import { OverviewComponent } from './components/overview/overview.component';
 import { DesignComponent } from './components/design/design.component';
+import { DevTabComponent } from './components/dev-tab/dev-tab.component';
+import { ReviewComponent } from './components/review/review.component';
+import { MovieheroComponent } from './components/moviehero/moviehero.component';
+import { DetailsComponent } from './components/details/details.component';
+import { MoviesComponent } from './components/movies/movies.component';
+import { PhotographyComponent } from './components/photography/photography.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +25,13 @@ import { DesignComponent } from './components/design/design.component';
     AboutmeComponent,
     HpPhotosComponent,
     OverviewComponent,
-    DesignComponent
+    DesignComponent,
+    DevTabComponent,
+    ReviewComponent,
+    MovieheroComponent,
+    DetailsComponent,
+    MoviesComponent,
+    PhotographyComponent
   ],
   imports: [
     BrowserModule,

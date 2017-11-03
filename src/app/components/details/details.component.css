@@ -1,0 +1,22 @@
+.movie-review {
+    padding-bottom: 50px;
+}
+
+.thumbnail {
+    height: 450px;
+}
+
+.movietitle {
+    font-family:  'Permanent Marker', cursive;
+    color: #42f498;
+    text-shadow: 2px 2px black;
+}
+
+span.glyphicon-chevron-up {
+    font-size: 75px;
+    color: rgba(172, 173, 189, 0.8);
+    position: absolute;
+    left: 30%;
+    top: 90%;
+    padding-top: 50px;
+}

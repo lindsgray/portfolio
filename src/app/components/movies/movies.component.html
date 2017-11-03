@@ -1,0 +1,14 @@
+<div class="container-fluid" id="movies">
+  <div class="row movie-row">
+    <div class="col-xs-12 col-sm-6 col-md-3" *ngFor="let movie of moviesCopy; let i = index;" id="movies" (click)="movie.active = !movie.active">
+      <img src="{{movie.thumbnail}}" alt="movie poster" class="movie-thumb">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" (click)="changeMovie(i, movie)"></span>
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" (click)="changeMovie(i, movie)"></span>
+      <div class="info-box" [ngClass]="{'show': movie.active}">
+        <p>{{movie.description}}</p>
+        <button class="btn btn-success" (click)="selectedMovie = movie; scrollToBottom()">Read Review</button>
+      </div>
+    </div>
+  </div>
+  <movie-details [movie]="selectedMovie"></movie-details>
+</div>

@@ -1,0 +1,23 @@
+<div id="review" class="container-fluid movie-review">
+  <div *ngIf="movie" class="row">
+    <div class="movie-poster col-xs-12 col-sm-6 col-md-3">
+      <img src="{{movie.thumbnail}}" alt="poster" class="thumbnail">
+    </div>
+    <div class="moviecontent col-xs-12 col-sm-6 col-md-9">
+      <h1 class="movietitle">{{movie.title}}</h1>
+      <p>{{movie.year}} || {{movie.genre}} ||
+        <a href="{{movie.trailer}}" target="_blank">watch trailer</a>
+      </p>
+      <p>{{movie.description}}</p>
+      <p>{{movie.review.Anticipation}}</p>
+      <p>{{movie.review.Enjoyment}}</p>
+      <p>{{movie.review.inRetrospect}}</p>
+      <p>{{movie.review.content}}</p>
+      <a href="/review#movies">
+        <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div>
+  <!-- end of row -->
+</div>
+<!-- end of container fluid -->
