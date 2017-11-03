@@ -9,6 +9,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { AboutmeComponent } from './components/aboutme/aboutme.component';
 import { HpPhotosComponent } from './components/hp-photos/hp-photos.component';
 import { OverviewComponent } from './components/overview/overview.component';
+import { DesignComponent } from './components/design/design.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { OverviewComponent } from './components/overview/overview.component';
     NavComponent,
     AboutmeComponent,
     HpPhotosComponent,
-    OverviewComponent
+    OverviewComponent,
+    DesignComponent
   ],
   imports: [
     BrowserModule,
