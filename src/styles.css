@@ -1,1 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+tabset.tab-container .nav-tabs li.active a {
+    border: none;
+    margin-right: 0;
+}
